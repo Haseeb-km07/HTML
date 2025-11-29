@@ -75,4 +75,17 @@ $result = $conn->query($sql);
 
 <?php
 $conn->close();
+
 ?>
+
+
+#database
+
+create TABLE STUDENTS (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    age INT,
+    course VARCHAR(100)
+    );
+    INSERT INTO STUDENTS(name,age,course) VALUES
+    ('beevi',20,'MCA'),('sila',22,'Btech');
